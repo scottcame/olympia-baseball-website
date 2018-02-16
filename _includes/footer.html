@@ -1,0 +1,34 @@
+<!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center fa-ul">
+          {% if site.twitter_username %}
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/{{ site.twitter_username }}">
+              <span class="fa-layers fa-5x">
+                <i class="fa fa-circle"></i>
+                <i class="fab fa-twitter fa-inverse" data-fa-transform="shrink-6 down-.25 right-.25"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.facebook_username %}
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <span class="fa-layers fa-5x">
+                <i class="fa fa-circle"></i>
+                <i class="fab fa-facebook fa-inverse" data-fa-transform="shrink-6 down-.25 right-.25"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

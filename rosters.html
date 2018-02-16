@@ -1,0 +1,133 @@
+---
+layout: page
+title: Rosters
+background: '/img/bg-rosters.jpg'
+demo: true
+---
+
+{% if page.demo==false %}
+To Be Announced March 1.
+{% endif %}
+
+
+{% if page.demo %}
+
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-varsity-tab" data-toggle="tab" href="#nav-varsity" role="tab" aria-controls="nav-varsity" aria-selected="true">Varsity</a>
+    <a class="nav-item nav-link" id="nav-jv-tab" data-toggle="tab" href="#nav-jv" role="tab" aria-controls="nav-jv" aria-selected="false">Junior Varsity</a>
+    <a class="nav-item nav-link" id="nav-cteam-tab" data-toggle="tab" href="#nav-cteam" role="tab" aria-controls="nav-cteam" aria-selected="false">C Team</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+
+  <div class="tab-pane fade show active" id="nav-varsity" role="tabpanel" aria-labelledby="nav-varsity-tab">
+
+    <div style="padding-top: 50px;">
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">Player #</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Positions</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Gilliam.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">19</td>
+            <td class="align-middle">Jim</td>
+            <td class="align-middle">Gilliam</td>
+            <td class="align-middle">2B</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Reese.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">1</td>
+            <td class="align-middle">Pee Wee</td>
+            <td class="align-middle">Reese</td>
+            <td class="align-middle">SS</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Snider.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">4</td>
+            <td class="align-middle">Duke</td>
+            <td class="align-middle">Snider</td>
+            <td class="align-middle">CF</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Hodges.jpeg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">14</td>
+            <td class="align-middle">Gil</td>
+            <td class="align-middle">Hodges</td>
+            <td class="align-middle">1B</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Amoros.gif" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">15</td>
+            <td class="align-middle">Sandy</td>
+            <td class="align-middle">Amoros</td>
+            <td class="align-middle">LF</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Robinson.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">42</td>
+            <td class="align-middle">Jackie</td>
+            <td class="align-middle">Robinson</td>
+            <td class="align-middle">3B</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Furillo.jpeg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">6</td>
+            <td class="align-middle">Carl</td>
+            <td class="align-middle">Furillo</td>
+            <td class="align-middle">RF</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Campanella.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">39</td>
+            <td class="align-middle">Roy</td>
+            <td class="align-middle">Campanella</td>
+            <td class="align-middle">C</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Erskine.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">17</td>
+            <td class="align-middle">Carl</td>
+            <td class="align-middle">Erskine</td>
+            <td class="align-middle">P</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Newcombe.png" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">36</td>
+            <td class="align-middle">Don</td>
+            <td class="align-middle">Newcombe</td>
+            <td class="align-middle">P</td>
+            <td class="align-middle">Senior</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+  <div class="tab-pane fade" id="nav-jv" role="tabpanel" aria-labelledby="nav-jv-tab">JV Content</div>
+
+  <div class="tab-pane fade" id="nav-cteam" role="tabpanel" aria-labelledby="nav-cteam-tab">C Team Content</div>
+
+</div>
+
+{% endif %}
