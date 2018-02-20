@@ -1,7 +1,7 @@
 title:             Olympia Bears Baseball
 email:             your-email@example.com
 description:       Earn It.
-baseurl:           "/olympia-baseball-website"
+baseurl:           "/"
 url:               "http://www.olympiabearsbaseball.com"
 
 # Social Profiles
