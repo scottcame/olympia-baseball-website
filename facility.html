@@ -32,17 +32,23 @@ background: '/img/bg-facility.jpg'
     <li><span class="fa-li"><i class="fas fa-caret-right"></span></i>Grand Slam Club: $5000 donation or more</li>
   </ul>
 
-  To donate online via credit card or PayPal, click the "Donate" button below:
+  To donate online via credit card or PayPal, click the "Donate" button below, and also indicate if you grant us permission to recognize your donation publicly (e.g., on social media, etc.):
 </p>
 
 <div style="text-align: center">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick">
   <input type="hidden" name="hosted_button_id" value="X7JTMLCTSJ57S">
+  <input type="hidden" name="custom" value="Permission Not Granted" id="permField">
   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="permissionCb">
+    <label class="form-check-label" for="permissionCb">I give my permission to have my donation recognized publicly</label>
+  </div>
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 </div>
+
 
 <p>You can also download and print a <a href='DonorForm.pdf'>donation form</a>, fill it out, and mail with a check to:</p>
 
