@@ -11,4 +11,6 @@ $(function () {
     console.log("permField value=" + $('#permField').val())
   })
 
+  drawDiamond();
+
 })
