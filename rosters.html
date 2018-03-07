@@ -5,23 +5,24 @@ background: '/img/bg-rosters.jpg'
 demo: false
 ---
 
-{% if page.demo==false %}
+{% if page.demo==true %}
 To Be Announced March 1.
 {% endif %}
 
 
-{% if page.demo %}
+{% if page.demo==false %}
 
 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-varsity-tab" data-toggle="tab" href="#nav-varsity" role="tab" aria-controls="nav-varsity" aria-selected="true">Varsity</a>
-    <a class="nav-item nav-link" id="nav-jv-tab" data-toggle="tab" href="#nav-jv" role="tab" aria-controls="nav-jv" aria-selected="false">Junior Varsity</a>
-    <a class="nav-item nav-link" id="nav-cteam-tab" data-toggle="tab" href="#nav-cteam" role="tab" aria-controls="nav-cteam" aria-selected="false">C Team</a>
+    <a class="nav-item nav-link active" id="nav-sr-tab" data-toggle="tab" href="#nav-sr" role="tab" aria-controls="nav-sr" aria-selected="true">Seniors</a>
+    <a class="nav-item nav-link" id="nav-jr-tab" data-toggle="tab" href="#nav-jr" role="tab" aria-controls="nav-jr" aria-selected="false">Juniors</a>
+    <a class="nav-item nav-link" id="nav-so-tab" data-toggle="tab" href="#nav-so" role="tab" aria-controls="nav-so" aria-selected="false">Sophomores</a>
+    <a class="nav-item nav-link" id="nav-fr-tab" data-toggle="tab" href="#nav-fr" role="tab" aria-controls="nav-fr" aria-selected="false">Freshmen</a>
   </div>
 </nav>
 <div class="tab-content" id="nav-tabContent">
 
-  <div class="tab-pane fade show active" id="nav-varsity" role="tabpanel" aria-labelledby="nav-varsity-tab">
+  <div class="tab-pane fade show active" id="nav-sr" role="tabpanel" aria-labelledby="nav-sr-tab">
 
     <div style="padding-top: 50px;">
 
@@ -29,93 +30,72 @@ To Be Announced March 1.
         <thead>
           <tr>
             <th></th>
-            <th scope="col">Player #</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>
             <th scope="col">Positions</th>
-            <th scope="col">Class</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Gilliam.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">19</td>
-            <td class="align-middle">Jim</td>
-            <td class="align-middle">Gilliam</td>
-            <td class="align-middle">2B</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Fairchild.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Sam</td>
+            <td class="align-middle">Fairchild</td>
+            <td class="align-middle">P/1B</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Reese.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">1</td>
-            <td class="align-middle">Pee Wee</td>
-            <td class="align-middle">Reese</td>
-            <td class="align-middle">SS</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/He.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Alex</td>
+            <td class="align-middle">He</td>
+            <td class="align-middle">P/OF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Snider.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">4</td>
-            <td class="align-middle">Duke</td>
-            <td class="align-middle">Snider</td>
-            <td class="align-middle">CF</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Lane.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Braeden</td>
+            <td class="align-middle">Lane</td>
+            <td class="align-middle">P/IF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Hodges.jpeg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">14</td>
-            <td class="align-middle">Gil</td>
-            <td class="align-middle">Hodges</td>
-            <td class="align-middle">1B</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Manning.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Jared</td>
+            <td class="align-middle">Manning</td>
+            <td class="align-middle">OF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Amoros.gif" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">15</td>
-            <td class="align-middle">Sandy</td>
-            <td class="align-middle">Amoros</td>
-            <td class="align-middle">LF</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Nee.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Brendan</td>
+            <td class="align-middle">Nee</td>
+            <td class="align-middle">P/C/IF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Robinson.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">42</td>
-            <td class="align-middle">Jackie</td>
-            <td class="align-middle">Robinson</td>
-            <td class="align-middle">3B</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Peralta.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Noa</td>
+            <td class="align-middle">Peralta</td>
+            <td class="align-middle">OF/C</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Furillo.jpeg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">6</td>
-            <td class="align-middle">Carl</td>
-            <td class="align-middle">Furillo</td>
-            <td class="align-middle">RF</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Schmaltz.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Jacob</td>
+            <td class="align-middle">Schmaltz</td>
+            <td class="align-middle">P/IF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Campanella.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">39</td>
-            <td class="align-middle">Roy</td>
-            <td class="align-middle">Campanella</td>
-            <td class="align-middle">C</td>
-            <td class="align-middle">Senior</td>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Shepherd.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Niko</td>
+            <td class="align-middle">Shepherd</td>
+            <td class="align-middle">P/IF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Erskine.jpg" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">17</td>
-            <td class="align-middle">Carl</td>
-            <td class="align-middle">Erskine</td>
-            <td class="align-middle">P</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Wambold.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Mason</td>
+            <td class="align-middle">Wambold</td>
+            <td class="align-middle">IF</td>
           </tr>
           <tr>
-            <td class="align-middle"><img src="{{"/img/rosters/Newcombe.png" | relative_url }}" height="120"></img></td>
-            <td class="align-middle">36</td>
-            <td class="align-middle">Don</td>
-            <td class="align-middle">Newcombe</td>
-            <td class="align-middle">P</td>
-            <td class="align-middle">Senior</td>
+            <td class="align-middle"><img src="{{"/img/rosters/Woods.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Conner</td>
+            <td class="align-middle">Woods</td>
+            <td class="align-middle">P/OF</td>
           </tr>
         </tbody>
       </table>
@@ -124,9 +104,280 @@ To Be Announced March 1.
 
   </div>
 
-  <div class="tab-pane fade" id="nav-jv" role="tabpanel" aria-labelledby="nav-jv-tab">JV Content</div>
+  <div class="tab-pane fade" id="nav-jr" role="tabpanel" aria-labelledby="nav-jr-tab">
 
-  <div class="tab-pane fade" id="nav-cteam" role="tabpanel" aria-labelledby="nav-cteam-tab">C Team Content</div>
+    <div style="padding-top: 50px;">
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Positions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Flannery.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Kevin</td>
+            <td class="align-middle">Flannery</td>
+            <td class="align-middle">P/IF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Johnson.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Zach</td>
+            <td class="align-middle">Johnson</td>
+            <td class="align-middle">P/IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Long.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Tristan</td>
+            <td class="align-middle">Long</td>
+            <td class="align-middle">P/C/IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Moorad.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Kellan</td>
+            <td class="align-middle">Moorad</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/TwittyC.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Clyde</td>
+            <td class="align-middle">Twitty</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Winkle.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Kristian</td>
+            <td class="align-middle">Winkle</td>
+            <td class="align-middle">IF</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+  <div class="tab-pane fade" id="nav-so" role="tabpanel" aria-labelledby="nav-so-tab">
+
+    <div style="padding-top: 50px;">
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Positions</th>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Came.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Michael</td>
+            <td class="align-middle">Came</td>
+            <td class="align-middle">P/1B</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Cramer.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Kyler</td>
+            <td class="align-middle">Cramer</td>
+            <td class="align-middle">IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Cwieka.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Chris</td>
+            <td class="align-middle">Cwieka</td>
+            <td class="align-middle">P/IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Doughty.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Jacob</td>
+            <td class="align-middle">Doughty</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Drake.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Tristen</td>
+            <td class="align-middle">Drake</td>
+            <td class="align-middle">IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Ellery.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Nick</td>
+            <td class="align-middle">Ellery</td>
+            <td class="align-middle">C/OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Fiman.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Alex</td>
+            <td class="align-middle">Fiman</td>
+            <td class="align-middle">P/1B</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Herman.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Nathan</td>
+            <td class="align-middle">Herman</td>
+            <td class="align-middle">P/OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Matson.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Reagan</td>
+            <td class="align-middle">Matson</td>
+            <td class="align-middle">C/IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Veley.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Brandon</td>
+            <td class="align-middle">Veley</td>
+            <td class="align-middle">P/IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Wallace.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Hayden</td>
+            <td class="align-middle">Wallace</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Weiss.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Ben</td>
+            <td class="align-middle">Weiss</td>
+            <td class="align-middle">IF/OF</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+  <div class="tab-pane fade" id="nav-fr" role="tabpanel" aria-labelledby="nav-fr-tab">
+
+    <div style="padding-top: 50px;">
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Positions</th>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Beavers.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Matthew</td>
+            <td class="align-middle">Beavers</td>
+            <td class="align-middle">UTL</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Benford.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">John</td>
+            <td class="align-middle">Benford</td>
+            <td class="align-middle">1B/C</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Curran.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">James</td>
+            <td class="align-middle">Curran</td>
+            <td class="align-middle">P/C/IF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Dhammapala.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Kavi</td>
+            <td class="align-middle">Dhammapala</td>
+            <td class="align-middle">UTL</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Golliet.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Jordan</td>
+            <td class="align-middle">Golliet</td>
+            <td class="align-middle">P/IF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Grant.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Sam</td>
+            <td class="align-middle">Grant</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Grant.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Jackson</td>
+            <td class="align-middle">Grant</td>
+            <td class="align-middle">P/1B</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Herrick.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Aiden</td>
+            <td class="align-middle">Herrick</td>
+            <td class="align-middle">P/UTL</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Kapsandy.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Ben</td>
+            <td class="align-middle">Kapsandy</td>
+            <td class="align-middle">OF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Lund.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Hunter</td>
+            <td class="align-middle">Lund</td>
+            <td class="align-middle">IF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/Pedigo.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Adam</td>
+            <td class="align-middle">Pedigo</td>
+            <td class="align-middle">P/C/IF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Rasmussen.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Aaron</td>
+            <td class="align-middle">Rasmussen</td>
+            <td class="align-middle">UTL</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Spaccarotelli.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Vince</td>
+            <td class="align-middle">Spaccarotelli</td>
+            <td class="align-middle">1B/OF</td>
+          </tr>
+          <tr>
+            <td class="align-middle"><img src="{{"/img/rosters/TwittyJ.jpg" | relative_url }}" height="120"></img></td>
+            <td class="align-middle">Jackson</td>
+            <td class="align-middle">Twitty</td>
+            <td class="align-middle">P/OF</td>
+          </tr>
+          <tr>
+            <!-- <td class="align-middle"><img src="{{"/img/rosters/Beatty.jpg" | relative_url }}" height="120"></img></td> -->
+            <td class="align-middle"><img src="https://pbs.twimg.com/profile_images/902246262094782464/lWBHXqzg_400x400.jpg" height="120"></img></td>
+            <td class="align-middle">Sebastion</td>
+            <td class="align-middle">Beatty</td>
+            <td class="align-middle">Manager</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
 
 </div>
 
