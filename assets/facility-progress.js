@@ -1,7 +1,7 @@
 function drawDiamond() {
 
   let goal = 85000;
-  let amount = 43100;
+  let amount = 43200;
   let dim = 250;
   let margin = 20;
   let baseSize = 20;
